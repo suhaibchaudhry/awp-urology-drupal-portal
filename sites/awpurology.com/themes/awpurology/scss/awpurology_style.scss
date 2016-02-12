@@ -442,3 +442,47 @@ div.messages.commerce-add-to-cart-confirmation {
     background:url('../images/btn_google.png') no-repeat;
   }
 }
+
+
+
+
+
+
+/**************************************************
+* --
+* 10. Custom Styling
+* --
+**************************************************/
+
+body {
+	background: #fff;
+}
+
+header#section-header {
+	#zone-user-wrapper {
+		background-color: #00b1b6;
+		color: #fff;
+	}
+
+	#zone-branding-wrapper {
+		color: #00b1b6;
+	}
+}
+
+section#section-content {
+	#zone-preface-wrapper {
+		text-align: center;
+	}
+
+	#zone-postscript-wrapper {
+		background-color: #00b1b6;
+		color: #fff
+	}
+}
+
+footer#section-footer {
+	#zone-footer-wrapper {
+		background-color: #c49a6c;
+		color: #82593d;
+	}
+}
