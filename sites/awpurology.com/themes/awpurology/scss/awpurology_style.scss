@@ -466,10 +466,42 @@ header#section-header {
 
 	#zone-branding-wrapper {
 		color: #00b1b6;
+
+		.region-menu {
+			margin: 50px 0 15px 0;
+
+			.tb-megamenu-menu-awp-urology-menu {
+				background: transparent;
+				float: right;
+
+				ul.tb-megamenu-nav {
+					li.tb-megamenu-item {
+						a {
+							background: transparent;
+							color: #00b1b6;
+							font-weight: normal;
+							border: none;
+							font-size: 13px;
+							padding: 12px;
+							line-height: 35px;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
 section#section-content {
+	#zone-slideshow {
+		width: 100%;
+		
+		.region-slideshow-first {
+			width: 100%;
+			margin: 0;
+		}
+	}
+
 	#zone-preface-wrapper {
 		text-align: center;
 	}
@@ -478,6 +510,21 @@ section#section-content {
 		background-color: #00b1b6;
 		color: #fff
 	}
+	
+	#zone-preface-wrapper {
+		#region-preface-first {
+			.block-block-3 {
+				margin: 20px 0;
+
+				h2.block-title {
+					text-transform: uppercase;
+					color: #00b0b5;
+					font-size: 25px;
+					font-weight: normal;
+				}
+			}
+		}
+	}
 }
 
 footer#section-footer {
@@ -485,4 +532,9 @@ footer#section-footer {
 		background-color: #c49a6c;
 		color: #82593d;
 	}
+}
+
+//Front Page Only
+#zone-content-wrapper {
+	display: none;
 }
