@@ -30,3 +30,11 @@ a.facebook-button {
 a.youtube-button {
         @include social-media-button(youtube);
 }
+
+//.address {
+//	@include social-media-button(location);
+//}
+
+//.phone-number {
+//	@include social-media-button(phone);
+//}

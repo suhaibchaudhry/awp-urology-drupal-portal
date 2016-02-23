@@ -79,6 +79,11 @@ css[social_media.css][description] = This file holds all the social media button
 css[social_media.css][options][weight] = 15
 settings[alpha_css][social_media.css] = 'social_media.css'
 
+css[mobile.css][name] = Mobile Stylesheet
+css[mobile.css][description] = This file holds all the mobile code.
+css[mobile.css][options][weight] = 9
+settings[alpha_css][mobile.css] = 'mobile.css'
+
 ; OPTIONAL LIBRARIES
 
 libraries[awpurology_custom][name] = AWP Urology theme JS
