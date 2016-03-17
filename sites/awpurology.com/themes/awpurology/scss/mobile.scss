@@ -1,4 +1,29 @@
 @media (min-width: 320px) and (max-width: 359px) {
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 97% !important;
+                line-height: 50px;
+		font-size: 13px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
 #zone-user-wrapper {
 	.region-user-second {
 		background-color: #5998C1 !important;
@@ -9,6 +34,7 @@
 			.address, .phone-number {
 				clear: both;
 				line-height: normal !important;
+				font-size: 11px;
 			}
 
 			.phone-number {
@@ -31,7 +57,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				margin: 0 auto;
+				float: none;
+				height: 40px;
 			}
 
 			ul li {
@@ -126,6 +155,30 @@
 
 
 @media (min-width: 360px) and (max-width: 374px) {
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 90% !important;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
 #zone-user-wrapper {
 	.region-user-second {
 		background-color: #5998C1 !important;
@@ -169,7 +222,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				height: 40px;
+				margin: 0 auto;
+				float: none;
 			}
 
 			ul li {
@@ -263,6 +319,30 @@
 }
 
 @media (min-width: 375px) and (max-width: 410px) {
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 86% !important;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
 #zone-user-wrapper {
 	.region-user-second {
 		background-color: #5998C1 !important;
@@ -306,7 +386,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				margin: 0 auto;
+				float: none;
+				height: 40px;
 			}
 
 			ul li {
@@ -400,6 +483,30 @@
 }
 
 @media (min-width: 411px) and (max-width: 430px) {
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 77% !important;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
 #zone-user-wrapper {
 	.region-user-second {
 		background-color: #5998C1 !important;
@@ -443,7 +550,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				height: 40px;
+				margin: 0 auto;
+				float: none;
 			}
 
 			ul li {
@@ -537,6 +647,30 @@
 }
 
 @media (min-width: 431px) and (max-width: 440px) {
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 74% !important;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
 #zone-user-wrapper {
 	.region-user-second {
 		background-color: #5998C1 !important;
@@ -580,7 +714,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				height: 40px;
+				margin: 0 auto;
+				float: none;
 			}
 
 			ul li {
@@ -750,7 +887,10 @@
 			width: 100%;
 			
 			button {
-				width: 100%;
+				width: 90%;
+				height: 40px;
+				margin: 0 auto;
+				float: none;
 			}
 
 			ul li {

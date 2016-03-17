@@ -2,3 +2,28 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal
  *  and widescreen CSS files as appropriate. */
+
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 33%;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+

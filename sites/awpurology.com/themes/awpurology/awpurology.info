@@ -38,6 +38,10 @@ regions[footer_first] = Footer First
 regions[footer_second] = Footer Second
 regions[footer_third] = Footer Third
 
+regions[footer_menu_first] = Footer Menu First
+regions[footer_menu_second] = Footer Menu Second
+regions[footer_menu_third] = Footer Menu Third
+
 regions[footer2_first] = Footer2 First
 regions[footer2_second] = Footer2 Second
 
@@ -45,6 +49,8 @@ regions[slideshow_first] = Slideshow First
 
 regions[contact_first] = Contact First
 regions[contact_second] = Contact Second
+
+regions[sitemap] = Sitemap First
 
 ; ZONES
 
@@ -55,10 +61,12 @@ zones[header] = Header
 zones[preface] = Preface
 zones[content] = Content
 zones[postscript] = Postscript
+zones[footermenu] = Footer menu
 zones[footer] = Footer first
 zones[footer2] = Footer second
 zones[slideshow] = Slideshow
 zones[contact] = Contact
+zones[sitempa] = Sitemap
 
 ; OPTIONAL STYLESHEETS
 

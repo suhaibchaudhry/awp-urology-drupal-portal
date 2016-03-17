@@ -1,1 +1,26 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+#zone-sitempa-wrapper {
+        background-color: #7e553a;
+        height: 50px;
+
+        #block-menu-menu-sitemap-menu {
+                text-align: center;
+                margin: 0 auto;
+                width: 26%;
+                line-height: 50px;
+
+                ul.menu {
+                        li.leaf {
+                                list-style-type: none;
+                                list-style-image: none;
+                                float: left;
+
+                                a {
+                                        color: #fff;
+                                }
+                        }
+                }
+        }
+}
+
