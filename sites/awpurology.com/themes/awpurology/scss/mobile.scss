@@ -76,11 +76,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 557px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -90,7 +91,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -133,21 +134,25 @@
 }
 
 #zone-footer {
-	.region-footer-second {
+	.region-footer-first {
+		margin-bottom: 20px;
+			
 		#block-multiblock-1 {
 			p {
-				top: 0 !important;
-				left: 90px !important;
+				position: relative;
+				//left: 85px;
 			}
 		}
 	}
 
+	.region-footer-second {
+		text-align: center;
+	}
+
 	.region-footer-third {
-		#block-block-4 {
-			p {
-				text-align: center;
-				top: 15px !important;
-			}
+		ul.menu {
+			position: relative;
+			left: 20px;
 		}
 	}	
 }
@@ -241,11 +246,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 532px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -255,7 +261,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -298,23 +304,27 @@
 }
 
 #zone-footer {
-	.region-footer-second {
-		#block-multiblock-1 {
-			p {
-				top: 0 !important;
-				left: 110px !important;
-			}
-		}
-	}
+        .region-footer-first {
+                margin-bottom: 20px;
 
-	.region-footer-third {
-		#block-block-4 {
-			p {
-				text-align: center;
-				top: 15px !important;
-			}
-		}
-	}	
+                #block-multiblock-1 {
+                        p {
+                                position: relative;
+                                //left: 115px;
+                        }
+                }
+        }
+
+        .region-footer-second {
+                text-align: center;
+        }
+
+        .region-footer-third {
+                ul.menu {
+                        position: relative;
+                        left: 40px;
+                }
+        }
 }
 }
 
@@ -405,11 +415,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 538px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -419,7 +430,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -462,23 +473,27 @@
 }
 
 #zone-footer {
-	.region-footer-second {
-		#block-multiblock-1 {
-			p {
-				top: 0 !important;
-				left: 120px !important;
-			}
-		}
-	}
+        .region-footer-first {
+                margin-bottom: 20px;
 
-	.region-footer-third {
-		#block-block-4 {
-			p {
-				text-align: center;
-				top: 15px !important;
-			}
-		}
-	}	
+                #block-multiblock-1 {
+                        p {
+                                position: relative;
+                                //left: 115px;
+                        }
+                }
+        }
+
+        .region-footer-second {
+                text-align: center;
+        }
+
+        .region-footer-third {
+                ul.menu {
+                        position: relative;
+                        left: 40px;
+                }
+        }
 }
 }
 
@@ -569,11 +584,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 551px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -583,7 +599,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -626,23 +642,27 @@
 }
 
 #zone-footer {
-	.region-footer-second {
-		#block-multiblock-1 {
-			p {
-				top: 0 !important;
-				left: 135px !important;
-			}
-		}
-	}
+        .region-footer-first {
+                margin-bottom: 20px;
 
-	.region-footer-third {
-		#block-block-4 {
-			p {
-				text-align: center;
-				top: 15px !important;
-			}
-		}
-	}	
+                #block-multiblock-1 {
+                        p {
+                                position: relative;
+                                //left: 135px;
+                        }
+                }
+        }
+
+        .region-footer-second {
+                text-align: center;
+        }
+
+        .region-footer-third {
+                ul.menu {
+                        position: relative;
+                        left: 60px;
+                }
+        }
 }
 }
 
@@ -733,11 +753,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 557px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -747,7 +768,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -790,23 +811,27 @@
 }
 
 #zone-footer {
-	.region-footer-second {
-		#block-multiblock-1 {
-			p {
-				top: 0 !important;
-				left: 150px !important;
-			}
-		}
-	}
+        .region-footer-first {
+                margin-bottom: 20px;
 
-	.region-footer-third {
-		#block-block-4 {
-			p {
-				text-align: center;
-				top: 15px !important;
-			}
-		}
-	}	
+                #block-multiblock-1 {
+                        p {
+                                position: relative;
+                                //left: 155px;
+                        }
+                }
+        }
+
+        .region-footer-second {
+                text-align: center;
+        }
+
+        .region-footer-third {
+                ul.menu {
+                        position: relative;
+                        left: 670px;
+                }
+        }
 }
 }
 
@@ -906,11 +931,12 @@
 
 #zone-header {
 	.region-header-first {
-		top: 557px !important;
+		top: 0 !important;
 
 		#block-blockify-blockify-page-title {
 			h1#page-title {
 				margin-left: 10px !important;
+				height: 60px;
 			}
 		}
 	}
@@ -920,7 +946,7 @@
 	.breadcrumb {
 		padding-left: 0;
 		left: 0;
-		bottom: 20px;
+		bottom: 30px;
 	}
 }
 
@@ -967,7 +993,7 @@
 		#block-multiblock-1 {
 			p {
 				top: 0 !important;
-				left: 150px !important;
+				//left: 150px !important;
 			}
 		}
 	}

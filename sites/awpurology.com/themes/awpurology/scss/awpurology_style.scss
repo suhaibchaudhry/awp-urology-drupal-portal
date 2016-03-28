@@ -489,7 +489,7 @@ p {
 
 	.region-footer-menu-second {
 		li.leaf {
-			width: 179px;
+			width: 175px;
 		}
 	}
 
@@ -507,6 +507,10 @@ p {
 
 			a {
 				color: #fff;
+				
+				&:hover {
+					color: #0D3854;
+				}
 			}
 		}
 	}
@@ -626,6 +630,8 @@ header#section-header {
 }
 
 section#section-content {
+	min-height: initial;
+
 	#zone-slideshow {
 		//width: 100%;
 		
@@ -897,41 +903,56 @@ section#section-content {
 
 footer#section-footer {
 	#zone-footer-wrapper {
-		background-color: #c49a6c;
-		color: #82593d;
+		background-color: #82593d;
+		color: #3C2E26;
 		font-size: 13px;
+		padding-top: 30px;
+		padding-bottom: 0;
 		
 		#zone-footer {
+			text-align: center;
+
 			.region-footer-first {
-				background: url("../../../files/footer-logo.png");
-				background-size: contain;
-				height: 100px;
-				background-repeat: no-repeat;
-				margin: 0 auto;
-				width: 300px;
+				#block-multiblock-1 {
+					p {
+						display: table;
+						margin: 0 auto;
+					}
+				}
 			}
 
 			.region-footer-second {
-				#block-multiblock-1 {
+				#block-block-4 {
 					p {
-						position: relative;
-						top: 40px;
-						left: 69px;
+						//position: relative;
+						//top: 20px;
+
+						a {
+							color: #3C2E26;
+						}
 					}
 				}
 			}
 
 			.region-footer-third {
-				#block-block-4 {
-					p {
-						position: relative;
-						top: 37px;
-					}
+				#block-menu-menu-sitemap-menu {
+        			        text-align: center;
+		           	    	margin: 0 auto;
+			                line-height: 50px;
+					display: table;
 
-					a {
-						color: #82593d;
-					}
-				}
+			                ul.menu {
+			                        li.leaf {
+			                                list-style-type: none;
+			                                list-style-image: none;
+			                                float: left;
+
+                                			a {
+                        			                color: #3C2E26;
+                      					}	
+                        			}
+                			}
+        			}
 			}
 		}
 	}
@@ -971,10 +992,10 @@ footer#section-footer {
 .page-node-2 {
 	#zone-header-wrapper {
 		#zone-header {
-			background: url("../images/contact-header.jpg");
-			height: 275px;
-			background-size: cover;
-			width: 100%;
+			//background: url("../images/contact-header.jpg");
+			//height: 275px;
+			//background-size: cover;
+			//width: 100%;
 		}
 	}
 }
@@ -1014,6 +1035,7 @@ footer#section-footer {
 
 		h1#page-title {
 			//margin-left: 335px;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -1026,12 +1048,12 @@ footer#section-footer {
 	}
 }
 
-.page-node-2 {
-	.region-header-first {
-		position: absolute;
-		top: 423px;
-	}
-}
+//.page-node-2 {
+//	.region-header-first {
+//		position: absolute;
+//		top: 423px;
+//	}
+//}
 
 //Contact Us Page
 section#section-content {

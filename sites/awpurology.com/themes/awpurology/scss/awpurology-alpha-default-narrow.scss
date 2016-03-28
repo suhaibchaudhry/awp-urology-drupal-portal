@@ -27,3 +27,31 @@
         }
 }
 
+@media (min-width: 740px) and (max-width: 979px) {
+#zone-footer {
+        .region-footer-first {
+                //margin-bottom: 20px;
+
+                #block-multiblock-1 {
+                        p {
+                                position: relative;
+                                right: 30px;
+				width: 120px;
+				top: 15px
+                        }
+                }
+        }
+
+        .region-footer-second {
+                //text-align: center;
+        }
+
+        .region-footer-third {
+                ul.menu {
+                        //position: relative;
+                        //left: 60px;
+			width: 290px;
+                }
+        }
+}
+}
